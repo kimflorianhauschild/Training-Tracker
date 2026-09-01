@@ -1,12 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0ea5e9"/>
-  <g fill="#0f172a">
-    <rect x="9" y="26" width="9" height="12" rx="3"/>
-    <rect x="46" y="26" width="9" height="12" rx="3"/>
-    <rect x="16" y="29" width="32" height="6" rx="3"/>
-    <rect x="19" y="21" width="7" height="22" rx="3.5"/>
-    <rect x="38" y="21" width="7" height="22" rx="3.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="72" fill="#f4f6f8"/>
+  <g fill="#111827">
+    <rect x="15" y="127" width="31" height="166" rx="15"/>
+    <rect x="60" y="79" width="51" height="262" rx="16"/>
+    <rect x="111" y="127" width="31" height="166" rx="15"/>
+    <rect x="370" y="127" width="31" height="166" rx="15"/>
+    <rect x="401" y="79" width="51" height="262" rx="16"/>
+    <rect x="466" y="127" width="31" height="166" rx="15"/>
+    <rect x="104" y="190" width="304" height="38" rx="8"/>
   </g>
-  <path d="M27 25c2-2 8-2 10 0l3 4-2 9c-3 3-9 3-12 0l-2-9z" fill="#e2e8f0"/>
-  <path d="M28 29c2-1 6-1 8 0l1 5c-2 1-5 2-8 0z" fill="#38bdf8"/>
+  <g fill="#aaa0ad">
+    <rect x="15" y="127" width="31" height="166" rx="8"/>
+    <rect x="60" y="79" width="51" height="262" rx="15"/>
+    <rect x="111" y="127" width="31" height="166" rx="8"/>
+    <rect x="370" y="127" width="31" height="166" rx="8"/>
+    <rect x="401" y="79" width="51" height="262" rx="15"/>
+    <rect x="466" y="127" width="31" height="166" rx="8"/>
+  </g>
+  <path d="M173 204c0-21 14-37 32-37h96c19 0 34 15 34 34v50c0 12-4 21-12 31l-20 25v105H194V302l-27-28c-8-8-12-17-12-28v-42Z" fill="#111827"/>
+  <path d="M178 204c0-12 8-21 19-21h104c11 0 19 9 19 20v48c0 7-2 12-7 18l-22 27v106H204V288l-26-27Z" fill="#ffe2ba"/>
+  <g fill="#ffc783">
+    <rect x="176" y="144" width="29" height="64" rx="15"/>
+    <rect x="219" y="135" width="29" height="73" rx="15"/>
+    <rect x="263" y="127" width="29" height="81" rx="15"/>
+    <rect x="307" y="139" width="29" height="69" rx="15"/>
+  </g>
+  <path d="M174 204h160c10 0 18 8 18 18v16H174z" fill="#ffe2ba"/>
 </svg>
