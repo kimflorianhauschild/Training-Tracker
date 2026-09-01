@@ -1,5 +1,6 @@
 import Dexie, { type Table } from "dexie";
 import dexieCloud from "dexie-cloud-addon";
+import cloudConfig from "../dexie-cloud.json";
 
 export interface StrengthArea {
   id?: string;
@@ -67,7 +68,7 @@ export class TrainingDB extends Dexie {
       hangboardSets: "@id, date, createdAt"
     });
 
-    const cloudUrl = import.meta.env.VITE_DEXIE_CLOUD_URL;
+    const cloudUrl = import.meta.env.VITE_DEXIE_CLOUD_URL || cloudConfig.dbUrl;
     if (cloudUrl) {
       this.cloud.configure({
         databaseUrl: cloudUrl,

@@ -318,8 +318,6 @@ function LoginDialog() {
 
 function AccountButton() {
   const user = useObservable(db.cloud.currentUser);
-  // Ohne konfigurierte Cloud-URL läuft die App nur lokal – kein Konto nötig.
-  if (!db.cloud?.options?.databaseUrl) return null;
 
   if (user?.isLoggedIn) {
     return (
