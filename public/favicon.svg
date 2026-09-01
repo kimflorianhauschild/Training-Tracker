@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <defs>
+<style>path:last-of-type { stroke: #010101 !important; stroke-width: 12px !important; stroke-linejoin: round; }</style>
 <filter id="continuous-outline" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
 <feMorphology in="SourceAlpha" operator="dilate" radius="10" result="expanded"/>
 <feFlood flood-color="#010101" result="outline-color"/>
