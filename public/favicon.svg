@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <defs>
 <filter id="continuous-outline" x="-4%" y="-4%" width="108%" height="108%" color-interpolation-filters="sRGB">
-<feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded"/>
+<feMorphology in="SourceAlpha" operator="dilate" radius="10" result="expanded"/>
 <feFlood flood-color="#010101" result="outline-color"/>
 <feComposite in="outline-color" in2="expanded" operator="in" result="outline"/>
 <feMerge>
