@@ -327,14 +327,19 @@ function AccountButton() {
         className="account"
         onClick={() => db.cloud.logout()}
         title={user.email ?? undefined}
+        aria-label="Abmelden"
       >
-        Abmelden
+        <span className="account-label">Abmelden</span>
       </button>
     );
   }
   return (
-    <button className="account" onClick={() => db.cloud.login()}>
-      Anmelden
+    <button
+      className="account"
+      onClick={() => db.cloud.login()}
+      aria-label="Anmelden"
+    >
+      <span className="account-label">Anmelden</span>
     </button>
   );
 }
